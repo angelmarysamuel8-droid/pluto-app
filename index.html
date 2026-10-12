@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PLUTO - Communication Care</title>
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f5fc;
+  color: #302843;
+}
+
+header {
+  background: linear-gradient(135deg, #67469b, #a38acb);
+  color: white;
+  padding: 25px 20px;
+  border-radius: 0 0 25px 25px;
+}
+
+header h1 {
+  margin: 0;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+header p {
+  line-height: 1.5;
+}
+
+main {
+  max-width: 650px;
+  margin: auto;
+  padding: 16px;
+  padding-bottom: 90px;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 18px;
+}
+
+.tabs button {
+  flex: 1;
+  min-width: 75px;
+  background: #e9e0f5;
+  color: #503579;
+}
+
+.tabs button.active,
+.primary {
+  background: #7351a4;
+  color: white;
+}
+
+.card {
+  background: white;
+  padding: 17px;
+  border-radius: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 12px #3826530d;
+}
+
+.card h2, .card h3 {
+  margin-top: 0;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #d9cfe7;
+  border-radius: 9px;
+  margin: 6px 0 13px;
+  background: white;
+}
+
+label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.small {
+  color: #746b82;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.page { display: none; }
+.page.active { display: block; }
+
+.activity {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee8f5;
+}
+
+.activity:last-child { border-bottom: none; }
+
+.badge {
+  display: inline-block;
+  background: #e2f4eb;
+  color: #28694d;
+  border-radius: 15px;
+  padding: 5px 9px;
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  color: #80768e;
+  padding: 
